@@ -1,0 +1,97 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\my_work\\MyBusiness\\MyBusinessAPI\\wwwroot\\Messages.json",
+      "PackagePath": "staticwebassets\\Messages.json"
+    },
+    {
+      "Id": "E:\\my_work\\MyBusiness\\MyBusinessAPI\\wwwroot\\resources\\114519e1-9778-46ec-a07e-f41b8322b438en.PNG",
+      "PackagePath": "staticwebassets\\resources\\114519e1-9778-46ec-a07e-f41b8322b438en.PNG"
+    },
+    {
+      "Id": "E:\\my_work\\MyBusiness\\MyBusinessAPI\\wwwroot\\resources\\3ec4fcc6-6c37-41b5-950d-21f04e7ff2f8aa.PNG",
+      "PackagePath": "staticwebassets\\resources\\3ec4fcc6-6c37-41b5-950d-21f04e7ff2f8aa.PNG"
+    },
+    {
+      "Id": "E:\\my_work\\MyBusiness\\MyBusinessAPI\\wwwroot\\resources\\4689d306-de52-4459-9e70-c61b11c73866we",
+      "PackagePath": "staticwebassets\\resources"
+    },
+    {
+      "Id": "E:\\my_work\\MyBusiness\\MyBusinessAPI\\wwwroot\\resources\\50862614-d79d-4a01-8550-8b043a46ba78aa.PNG",
+      "PackagePath": "staticwebassets\\resources\\50862614-d79d-4a01-8550-8b043a46ba78aa.PNG"
+    },
+    {
+      "Id": "E:\\my_work\\MyBusiness\\MyBusinessAPI\\wwwroot\\resources\\5767055e-e933-4fa1-977d-05fcb5b8685bwe",
+      "PackagePath": "staticwebassets\\resources"
+    },
+    {
+      "Id": "E:\\my_work\\MyBusiness\\MyBusinessAPI\\wwwroot\\resources\\5997a4d4-ed05-4eee-b129-2b2d80f08217ca.PNG",
+      "PackagePath": "staticwebassets\\resources\\5997a4d4-ed05-4eee-b129-2b2d80f08217ca.PNG"
+    },
+    {
+      "Id": "E:\\my_work\\MyBusiness\\MyBusinessAPI\\wwwroot\\resources\\674cf2df-de7a-46eb-8b33-03d5ba9777b2eee..PNG",
+      "PackagePath": "staticwebassets\\resources\\674cf2df-de7a-46eb-8b33-03d5ba9777b2eee..PNG"
+    },
+    {
+      "Id": "E:\\my_work\\MyBusiness\\MyBusinessAPI\\wwwroot\\resources\\7234341a-f180-4537-8894-dc73ae768976aa.PNG",
+      "PackagePath": "staticwebassets\\resources\\7234341a-f180-4537-8894-dc73ae768976aa.PNG"
+    },
+    {
+      "Id": "E:\\my_work\\MyBusiness\\MyBusinessAPI\\wwwroot\\resources\\8980d6b9-fdd0-4788-a4c6-d70400576a50aa.PNG",
+      "PackagePath": "staticwebassets\\resources\\8980d6b9-fdd0-4788-a4c6-d70400576a50aa.PNG"
+    },
+    {
+      "Id": "E:\\my_work\\MyBusiness\\MyBusinessAPI\\wwwroot\\resources\\8d78303f-79e4-4d5d-8727-1b0343e8ec4frrrr",
+      "PackagePath": "staticwebassets\\resources"
+    },
+    {
+      "Id": "E:\\my_work\\MyBusiness\\MyBusinessAPI\\wwwroot\\resources\\93f0424d-341d-421c-9874-9e6fbe75efbfaa.PNG",
+      "PackagePath": "staticwebassets\\resources\\93f0424d-341d-421c-9874-9e6fbe75efbfaa.PNG"
+    },
+    {
+      "Id": "E:\\my_work\\MyBusiness\\MyBusinessAPI\\wwwroot\\resources\\98bc3612-1e0d-40bd-a099-5096d688ee89jj.jpeg",
+      "PackagePath": "staticwebassets\\resources\\98bc3612-1e0d-40bd-a099-5096d688ee89jj.jpeg"
+    },
+    {
+      "Id": "E:\\my_work\\MyBusiness\\MyBusinessAPI\\wwwroot\\resources\\a0f3f198-79a0-43a2-8ce2-b14f4582b490Capture.PNG",
+      "PackagePath": "staticwebassets\\resources\\a0f3f198-79a0-43a2-8ce2-b14f4582b490Capture.PNG"
+    },
+    {
+      "Id": "E:\\my_work\\MyBusiness\\MyBusinessAPI\\wwwroot\\resources\\ab215e2d-2021-4027-b4aa-a8b35bbf1aa2Capture.PNG",
+      "PackagePath": "staticwebassets\\resources\\ab215e2d-2021-4027-b4aa-a8b35bbf1aa2Capture.PNG"
+    },
+    {
+      "Id": "E:\\my_work\\MyBusiness\\MyBusinessAPI\\wwwroot\\resources\\b90a318a-ff6b-4b71-a06a-4fb7421724d3we",
+      "PackagePath": "staticwebassets\\resources"
+    },
+    {
+      "Id": "E:\\my_work\\MyBusiness\\MyBusinessAPI\\wwwroot\\resources\\cd5fb7d4-49ce-4689-9b10-278aac058350uu.PNG",
+      "PackagePath": "staticwebassets\\resources\\cd5fb7d4-49ce-4689-9b10-278aac058350uu.PNG"
+    },
+    {
+      "Id": "E:\\my_work\\MyBusiness\\MyBusinessAPI\\wwwroot\\resources\\f7256f2b-b006-4661-9ca9-de8335513f2caya",
+      "PackagePath": "staticwebassets\\resources"
+    },
+    {
+      "Id": "E:\\my_work\\MyBusiness\\MyBusinessAPI\\wwwroot\\resources\\fab0ec25-5401-4ec1-b5cd-fbb3726d3ba2Capture.PNG",
+      "PackagePath": "staticwebassets\\resources\\fab0ec25-5401-4ec1-b5cd-fbb3726d3ba2Capture.PNG"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.MyBusinessAPI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.build.MyBusinessAPI.props",
+      "PackagePath": "build\\MyBusinessAPI.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.MyBusinessAPI.props",
+      "PackagePath": "buildMultiTargeting\\MyBusinessAPI.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.buildTransitive.MyBusinessAPI.props",
+      "PackagePath": "buildTransitive\\MyBusinessAPI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,81 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32516.85
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Utilities", "Utilities\Utilities.csproj", "{CC195C73-B0BC-4B05-B5A3-0CC7F30E71F2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccess", "DataAccess\DataAccess.csproj", "{33316105-142C-4FAC-8A10-A2A7F09544CB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Models", "Models\Models.csproj", "{DFA5EB87-5618-4A74-9535-3103BC3E178B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyBusinessAPI", "MyBusinessAPI\MyBusinessAPI.csproj", "{D853B656-6057-4EE4-AA19-8C574AC0C0B7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Angular", "Angular", "{44CC182F-E95E-4F0E-89B3-B6B8BCA340A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "report", "..\My_Busniess\report\report.csproj", "{A14B99CC-6232-4FD4-B9FE-FAD902C47DF1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC195C73-B0BC-4B05-B5A3-0CC7F30E71F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC195C73-B0BC-4B05-B5A3-0CC7F30E71F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC195C73-B0BC-4B05-B5A3-0CC7F30E71F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC195C73-B0BC-4B05-B5A3-0CC7F30E71F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33316105-142C-4FAC-8A10-A2A7F09544CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33316105-142C-4FAC-8A10-A2A7F09544CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33316105-142C-4FAC-8A10-A2A7F09544CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33316105-142C-4FAC-8A10-A2A7F09544CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFA5EB87-5618-4A74-9535-3103BC3E178B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFA5EB87-5618-4A74-9535-3103BC3E178B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFA5EB87-5618-4A74-9535-3103BC3E178B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFA5EB87-5618-4A74-9535-3103BC3E178B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D853B656-6057-4EE4-AA19-8C574AC0C0B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D853B656-6057-4EE4-AA19-8C574AC0C0B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D853B656-6057-4EE4-AA19-8C574AC0C0B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D853B656-6057-4EE4-AA19-8C574AC0C0B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A14B99CC-6232-4FD4-B9FE-FAD902C47DF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A14B99CC-6232-4FD4-B9FE-FAD902C47DF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A14B99CC-6232-4FD4-B9FE-FAD902C47DF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A14B99CC-6232-4FD4-B9FE-FAD902C47DF1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A8B52D55-6681-4EC5-A8E8-DEAD0DF0946E}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://dev.azure.com/egyptionintegration
+		SccProjectUniqueName0 = Utilities\\Utilities.csproj
+		SccProjectName0 = $/My_Busniess/Utilities
+		SccAuxPath0 = https://dev.azure.com/egyptionintegration
+		SccLocalPath0 = Utilities
+		SccProvider0 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName1 = DataAccess\\DataAccess.csproj
+		SccProjectName1 = $/My_Busniess/DataAccess
+		SccAuxPath1 = https://dev.azure.com/egyptionintegration
+		SccLocalPath1 = DataAccess
+		SccProvider1 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName2 = Models\\Models.csproj
+		SccProjectName2 = $/My_Busniess/Models
+		SccAuxPath2 = https://dev.azure.com/egyptionintegration
+		SccLocalPath2 = Models
+		SccProvider2 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName3 = MyBusinessAPI\\MyBusinessAPI.csproj
+		SccProjectName3 = $/My_Busniess/MyBusinessAPI
+		SccAuxPath3 = https://dev.azure.com/egyptionintegration
+		SccLocalPath3 = MyBusinessAPI
+		SccProvider3 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName4 = ..\\My_Busniess\\report\\report.csproj
+		SccProjectName4 = $/My_Busniess/report
+		SccAuxPath4 = https://dev.azure.com/egyptionintegration
+		SccLocalPath4 = ..\\My_Busniess\\report
+		SccProvider4 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,356 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MyBusinessAPI</name>
+    </assembly>
+    <members>
+        <member name="M:MyBusinessAPI.Areas.API_MyBusiness.Controllers.BranchController.Index(Models.ViewModels.TopWave.PagingParameterViewModel)">
+            <summary>
+            get list of branches with paging
+            </summary>
+            <param name="pagingParameterViewModel">enter PageIndex and page Size</param>
+            <returns>lis of branches</returns>
+        </member>
+        <member name="M:MyBusinessAPI.Areas.API_MyBusiness.Controllers.BranchController.Details(System.Int32)">
+            <summary>
+            display only one branch based on its Id
+            </summary>
+            <param name="id">The Id Of Branch</param>
+            <returns>one branch</returns>
+        </member>
+        <member name="M:MyBusinessAPI.Areas.API_MyBusiness.Controllers.BranchController.Add(Models.ViewModels.TopWave.BranchViewModel)">
+            <summary>
+            Add New Branch
+            </summary>
+            <param name="branch">Enter its branch Id Mandatory , Branch NameAr ,Branch NameEn,Notes</param>
+            <returns>Added Branch</returns>
+        </member>
+        <member name="M:MyBusinessAPI.Areas.API_MyBusiness.Controllers.BranchController.Update(System.Int32,Models.ViewModels.TopWave.BranchViewModel)">
+            <summary>
+            Update Branch based on Id of branch need
+            </summary>
+            <param name="id">Id of branch need</param>
+            <param name="branch">Enter its branch Id Mandatory , Branch NameAr ,Branch NameEn,Notes</param>
+            <returns>Branch Updated</returns>
+        </member>
+        <member name="M:MyBusinessAPI.Areas.API_MyBusiness.Controllers.BranchController.Delete(System.Int32)">
+            <summary>
+            Deleted Branch based on Id of branch need
+            </summary>
+            <param name="id">Id of branch need</param>
+            <returns>branch of Deleted</returns>
+        </member>
+        <member name="M:MyBusinessAPI.Areas.API_MyBusiness.Controllers.BranchController.GetBranchesFilters(System.Int32)">
+            <summary>
+            display list of branches based id of division
+            </summary>
+            <param name="DivId">id of division</param>
+            <returns>list of branches</returns>
+        </member>
+        <member name="M:MyBusinessAPI.Areas.API_MyBusiness.Controllers.BranchController.Branches_DivEntCus(Models.ViewModels.TopWave.PagingParameterViewModel,System.Int32)">
+            <summary>
+            display list of branches based id of division with paging
+            </summary>
+            <param name="pagingParameterViewModel">Enter pageIndex and pageSize</param>
+            <param name="DivId">id of division</param>
+            <returns>list of branches</returns>
+        </member>
+        <member name="M:MyBusinessAPI.Areas.API_MyBusiness.Controllers.DataTypeController.#ctor(Microsoft.AspNetCore.Hosting.IWebHostEnvironment,Microsoft.AspNetCore.Http.IHttpContextAccessor,DataAccess.UnitOfWork.Standerd.IUnitOfWorkStanderd)">
+            <summary>
+            Standard Screen
+            </summary>
+            <param name="webHostEnvironment"></param>
+            <param name="httpContextAccessor"></param>
+            <param name="unitOfWork"></param>
+        </member>
+        <member name="M:MyBusinessAPI.Areas.API_MyBusiness.Controllers.DataTypeController.Index">
+            <summary>
+            Get all Data in Standard Screen
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MyBusinessAPI.Areas.API_MyBusiness.Controllers.DataTypeController.Details(System.Int32)">
+            <summary>
+            Get Data Od one Record Based On Id 
+            </summary>
+            <param name="id">Record Id you Need</param>
+            <returns></returns>
+        </member>
+        <member name="M:MyBusinessAPI.Areas.API_MyBusiness.Controllers.DataTypeController.Add(MyBusinessAPI.Models.M_Standard_B_Data_Type)">
+            <summary>
+            Add New Record 
+            </summary>
+            <param name="m_Standard_B_Data_Type">Object You Need Add</param>
+            <returns>Record Added</returns>
+        </member>
+        <member name="M:MyBusinessAPI.Areas.API_MyBusiness.Controllers.DataTypeController.Update(System.Int32,MyBusinessAPI.Models.M_Standard_B_Data_Type)">
+            <summary>
+            Updated Record
+            </summary>
+            <param name="id">Record Id you Need to Update</param>
+            <param name="m_Standard_B_Data_Type">Object You Need Update</param>
+            <returns>Record Updated</returns>
+        </member>
+        <member name="M:MyBusinessAPI.Areas.API_MyBusiness.Controllers.DataTypeController.Delete(System.Int32)">
+            <summary>
+            Delete Record
+            </summary>
+            <param name="id">Record Id you Need to Deleted</param>
+            <returns>Record Dleted</returns>
+        </member>
+        <member name="M:MyBusinessAPI.Areas.API_MyBusiness.Controllers.DataTypeController.GetDataType(Models.ViewModels.TopWave.PagingParameterViewModel)">
+            <summary>
+            Return all records on Standerd Screen Based On Paging
+            </summary>
+            <param name="pageParameterModel">Paging Data</param>
+            <returns>Records you need</returns>
+        </member>
+        <member name="M:MyBusinessAPI.Areas.API_MyBusiness.Controllers.DivisionController.Index(Models.ViewModels.TopWave.PagingParameterViewModel)">
+            <summary>
+            Get All Divisions With paging 
+            </summary>
+            <param name="pagingParameters">Enter pageIndex And PageSize</param>
+            <returns>List Of Divisions</returns>
+        </member>
+        <member name="M:MyBusinessAPI.Areas.API_MyBusiness.Controllers.DivisionController.Details(System.Int32)">
+            <summary>
+            get only one division
+            </summary>
+            <param name="id">enter division you need</param>
+            <returns>get division need</returns>
+        </member>
+        <member name="M:MyBusinessAPI.Areas.API_MyBusiness.Controllers.DivisionController.Add(Models.ViewModels.TopWave.DivisionViewModel)">
+            <summary>
+            Add New Division
+            </summary>
+            <param name="divisionViewModel">Enter Only Division Id,NameAr Mandatory,NameEn Mandatory,Notes,IsAtive</param>
+            <returns>Division Added</returns>
+        </member>
+        <member name="M:MyBusinessAPI.Areas.API_MyBusiness.Controllers.DivisionController.Update(System.Int32,Models.ViewModels.TopWave.DivisionViewModel)">
+            <summary>
+            Update Division
+            </summary>
+            <param name="id">Enter division you need Updated</param>
+            <param name="divisionViewModel">Enter Only division Id,NameAr Mandatory,NameEn Mandatory,Notes,IsAtive</param>
+            <returns>division updated</returns>
+        </member>
+        <member name="M:MyBusinessAPI.Areas.API_MyBusiness.Controllers.DivisionController.Delete(System.Int32)">
+            <summary>
+            Delete Division
+            </summary>
+            <param name="id">Enter Id of Division You need delete</param>
+            <returns>division deleted</returns>
+        </member>
+        <member name="M:MyBusinessAPI.Areas.API_MyBusiness.Controllers.DivisionController.getDivisionsFilter(System.Int32)">
+            <summary>
+            get Divisions based on Enterprise id
+            </summary>
+            <param name="EntId">Enter your Enterprise Id</param>
+            <returns>list of divisions</returns>
+        </member>
+        <member name="M:MyBusinessAPI.Areas.API_MyBusiness.Controllers.DivisionController.DivisionEnterprisedivision(Models.ViewModels.TopWave.PagingParameterViewModel,System.Int32)">
+            <summary>
+            get all divisions based on enterprise id with paging
+            </summary>
+            <param name="pagingParameterViewModel">enter pageIndex and pageSize</param>
+            <param name="EntId">Enter your Enterprise Id</param>
+            <returns>List Divisions</returns>
+        </member>
+        <member name="M:MyBusinessAPI.Areas.API_MyBusiness.Controllers.EnterpriseController.Index(Models.ViewModels.TopWave.PagingParameterViewModel)">
+            <summary>
+            Get All Enterprises With paging 
+            </summary>
+            <param name="pagingParameters">Enter pageIndex And PageSize</param>
+            <returns>List Of EnterPrise</returns>
+        </member>
+        <member name="M:MyBusinessAPI.Areas.API_MyBusiness.Controllers.EnterpriseController.Details(System.Int32)">
+            <summary>
+            Get only one Enterprise
+            </summary>
+            <param name="id">Enter Id of Enterprise you need</param>
+            <returns>display one enterprise</returns>
+        </member>
+        <member name="M:MyBusinessAPI.Areas.API_MyBusiness.Controllers.EnterpriseController.Add(Models.ViewModels.TopWave.EnterpriseViewModel)">
+            <summary>
+            Add New Enterprise
+            </summary>
+            <param name="enterpriseViewModel">Enter Only Enterprise Id,NameAr Mandatory,NameEn Mandatory,Notes,IsAtive</param>
+            <returns>Enterprise Added</returns>
+        </member>
+        <member name="M:MyBusinessAPI.Areas.API_MyBusiness.Controllers.EnterpriseController.Update(System.Int32,Models.ViewModels.TopWave.EnterpriseViewModel)">
+            <summary>
+            Update Enterprise based on id you Entered
+            </summary>
+            <param name="id">enter id of your enterprise need</param>
+            <param name="enterprise">Enter Only Enterprise Id,NameAr Mandatory,NameEn Mandatory,Notes,Isative</param>
+            <returns>Enterprise Updated</returns>
+        </member>
+        <member name="M:MyBusinessAPI.Areas.API_MyBusiness.Controllers.EnterpriseController.Delete(System.Int32)">
+            <summary>
+            Delete one enterprise
+            </summary>
+            <param name="id">Enter Id of Enterprse need to delete</param>
+            <returns>Enterprise Deleted</returns>
+        </member>
+        <member name="M:MyBusinessAPI.Areas.API_MyBusiness.Controllers.EnterpriseController.getEnterprisesFilter(Models.ViewModels.Filter{System.Int32})">
+            <summary>
+            get Enterprise based on Id of Customer
+            </summary>
+            <param name="parms">Id of Customer</param>
+            <returns>List of Enterprise</returns>
+        </member>
+        <member name="M:MyBusinessAPI.Areas.API_MyBusiness.Controllers.EnterpriseController.EnterpriseCustomer(Models.ViewModels.TopWave.PagingParameterViewModel,System.Int32)">
+            <summary>
+            get Enterprise based on Id of Customer with paging
+            </summary>
+            <param name="pagingParameterView">Enter pageIndex and pageSize</param>
+            <param name="Id">Id of Customer</param>
+            <returns>get enterpriss</returns>
+        </member>
+        <member name="M:MyBusinessAPI.Areas.API_MyBusiness.Controllers.FileController.Index(System.Int32)">
+            <summary>
+            Get Files Based on code of  Record  in Specidic table
+            </summary>
+            <param name="code">Code Of   Record  in Specidic table Need</param>
+            <returns>List Of Files Path</returns>
+        </member>
+        <member name="M:MyBusinessAPI.Areas.API_MyBusiness.Controllers.FileController.Add(Models.ViewModels.General.FileViewModel)">
+            <summary>
+            Add New File
+            </summary>
+            <param name="file">File Want To Add</param>
+            <returns>File Add</returns>
+        </member>
+        <member name="M:MyBusinessAPI.Areas.API_MyBusiness.Controllers.FileController.Update(Models.ViewModels.General.FileViewModel)">
+            <summary>
+            Update  File
+            </summary>
+            <param name="file">File Want To Update</param>
+            <returns>File Updated</returns>
+        </member>
+        <member name="M:MyBusinessAPI.Areas.API_MyBusiness.Controllers.FileController.Delete(System.Int32)">
+            <summary>
+            When Need Delete Files
+            </summary>
+            <param name="id">id of record need to Delete</param>
+            <returns></returns>
+        </member>
+        <member name="M:MyBusinessAPI.Areas.API_MyBusiness.Controllers.NotesController.Index(System.Int32)">
+            <summary>
+            Get Note Based on code of  Record  in Specidic table
+            </summary>
+            <param name="code">Code Of   Record  in Specidic table Need</param>
+            <returns>List Of Notes</returns>
+        </member>
+        <member name="M:MyBusinessAPI.Areas.API_MyBusiness.Controllers.NotesController.Add(MyBusinessAPI.Models.m_gen_b__Note)">
+            <summary>
+            Add New Note
+            </summary>
+            <param name="note">Note Want To Add</param>
+            <returns>Note Add</returns>
+        </member>
+        <member name="M:MyBusinessAPI.Areas.API_MyBusiness.Controllers.NotesController.Update(MyBusinessAPI.Models.m_gen_b__Note)">
+            <summary>
+            Update Note
+            </summary>
+            <param name="note">Note Want To Updated</param>
+            <returns>Note Updated</returns>
+        </member>
+        <member name="M:MyBusinessAPI.Areas.API_MyBusiness.Controllers.NotesController.Delete(System.Int32)">
+            <summary>
+            When Need Delete Notes
+            </summary>
+            <param name="id">Code Of   Record  in Specidic table Need to Delete</param>
+            <returns></returns>
+        </member>
+        <member name="M:MyBusinessAPI.Areas.API_MyBusiness_Login.Controllers.LoginController.LoginCEDB(System.String)">
+            <summary>
+            Enter Your cedb to complete login
+            </summary>
+            <param name="cedb">Enter with this format 000-00-00-000</param>
+            <returns></returns>
+        </member>
+        <member name="M:MyBusinessAPI.Areas.API_MyBusiness_Login.Controllers.LoginController.Login(Models.ViewModels.LoginParms)">
+            <summary>
+            Login Api Wiht Specify Which Database work With It
+            </summary>
+            <param name="login">  
+            DBTybe:
+            /// 1.Server Live
+            2.Server Training
+            3.Server Demo
+            4.Server DEvelopment
+            5.Azure Live
+            6.Azure Training
+            7.Azure Demo
+            8.Azure DEvelopment
+            9.Local Live
+            10.Local Training
+            11.Local Demo
+            12.Local Development</param>
+            <returns></returns>
+        </member>
+        <member name="M:MyBusinessAPI.Areas.API_MyBusiness_Login.Controllers.LoginFieldController.Index">
+            <summary>
+            Get all Fields of Login If User Need to appear or not
+            </summary>
+            <returns>List of FieldsLogin</returns>
+        </member>
+        <member name="M:Apis.Controllers.CustomerController.Index(Models.ViewModels.TopWave.PagingParameterViewModel)">
+            <summary>
+            Display All Customers with paging
+            </summary>
+            <param name="customerSFPViewModel">enter PageIndex and pageSize</param>
+            <returns>List of Customers</returns>
+        </member>
+        <member name="M:Apis.Controllers.CustomerController.Details(System.Int32)">
+            <summary>
+            display one customer based on Id
+            </summary>
+            <param name="id">Id of customer</param>
+            <returns>one customer</returns>
+        </member>
+        <member name="M:Apis.Controllers.CustomerController.Add(MyBusinessAPI.Models.m_ent_b__Cst)">
+            <summary>
+            Add New Customer
+            </summary>
+            <param name="m_ent_b_Cst">enter custome id mandatory,nameAR mandatory,nameEn mandatory,notes,Active</param>
+            <returns>customer Add</returns>
+        </member>
+        <member name="M:Apis.Controllers.CustomerController.Update(System.Int32,MyBusinessAPI.Models.m_ent_b__Cst)">
+            <summary>
+            update customer based on id of customer need
+            </summary>
+            <param name="id">id of customer need</param>
+            <param name="m_ent_b_Cst">enter custome id mandatory,nameAR mandatory,nameEn mandatory,notes,Active</param>
+            <returns>customer updated</returns>
+        </member>
+        <member name="M:Apis.Controllers.CustomerController.Delete(System.Int32)">
+            <summary>
+            Delete customer based on Id needed
+            </summary>
+            <param name="id">the id of customer</param>
+            <returns>customer deleted</returns>
+        </member>
+        <member name="M:Apis.Controllers.CustomerController.GetCustomers">
+            <summary>
+            get all customers 
+            </summary>
+            <returns>object of customer id ,NameEn,NameAr</returns>
+        </member>
+        <member name="M:Apis.Controllers.CustomerController.GetFiltersByField(Models.ViewModels.Filter{System.String})">
+            <summary>
+            get list of values based customer field
+            </summary>
+            <param name="filter">the name of field</param>
+            <returns>list of values based customer field</returns>
+        </member>
+        <member name="M:Apis.Controllers.CustomerController.search(Models.ViewModels.TopWave.SearchParams)">
+            <summary>
+            Search Based On Type of Search and Object contain varibles with its values need to search
+            </summary>
+            <param name="search">Enter Type of Search and Object contain varibles with its values need to search</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

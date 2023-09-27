@@ -1,0 +1,15 @@
+E:\my_work\My_Busniess\DataAccess\bin\Release\net5.0\DataAccess.deps.json
+E:\my_work\My_Busniess\DataAccess\bin\Release\net5.0\DataAccess.dll
+E:\my_work\My_Busniess\DataAccess\bin\Release\net5.0\DataAccess.pdb
+E:\my_work\My_Busniess\DataAccess\bin\Release\net5.0\Models.dll
+E:\my_work\My_Busniess\DataAccess\bin\Release\net5.0\Models.pdb
+E:\my_work\My_Busniess\DataAccess\obj\Release\net5.0\DataAccess.csproj.AssemblyReference.cache
+E:\my_work\My_Busniess\DataAccess\obj\Release\net5.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+E:\my_work\My_Busniess\DataAccess\obj\Release\net5.0\DataAccess.AssemblyInfoInputs.cache
+E:\my_work\My_Busniess\DataAccess\obj\Release\net5.0\DataAccess.AssemblyInfo.cs
+E:\my_work\My_Busniess\DataAccess\obj\Release\net5.0\DataAccess.csproj.CoreCompileInputs.cache
+E:\my_work\My_Busniess\DataAccess\obj\Release\net5.0\DataAccess.csproj.CopyComplete
+E:\my_work\My_Busniess\DataAccess\obj\Release\net5.0\DataAccess.dll
+E:\my_work\My_Busniess\DataAccess\obj\Release\net5.0\refint\DataAccess.dll
+E:\my_work\My_Busniess\DataAccess\obj\Release\net5.0\DataAccess.pdb
+E:\my_work\My_Busniess\DataAccess\obj\Release\net5.0\ref\DataAccess.dll

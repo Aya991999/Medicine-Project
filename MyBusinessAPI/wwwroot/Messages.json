@@ -1,0 +1,75 @@
+{
+  "Get_200": {
+    "Status_Code": 200,
+    "MessageAr": "العمليه تمت بنجاح",
+    "MessageEn": "The Process is Sucess",
+    "Description": "when The Process of Display is Sucess"
+
+  },
+  "Save_201": {
+    "Status_Code": 201,
+    "MessageAr": "عمليه الاضافه تمت بنجاح",
+    "MessageEn": "The Process Add is Sucess",
+    "Description": "when The Process of Add is Sucess"
+
+  },
+  "Update_202": {
+    "Status_Code": 202,
+    "MessageAr": "عمليه التعديل تمت بنجاح",
+    "MessageEn": "The Process Update is Sucess",
+    "Description": "when The Process of update is Sucess"
+
+  },
+  "Delete_203": {
+    "Status_Code": 203,
+    "MessageAr": "عمليه الحذف تمت بنجاح",
+    "MessageEn": "The Process of delete is Sucess",
+    "Description": "when The Process of delete is Sucess"
+
+  },
+  "ExixtId_400": {
+    "Status_Code": 400,
+    "MessageEn": "The Id is Added Before",
+    "MessageAr": "تمت اضافه هذا Id من قبل",
+    "Description": "When there is This  Id in tabe and it is Primary key"
+
+  },
+  "ExistIdDeleted_401": {
+    "Status_Code": 401,
+    "MessageEn": "The ID is Added Before and Deleted",
+    "MessageAr": "تمت اضافه هذا Id من قبل و تم حذفه",
+    "Description": "When there is This Id  in table and it is Deleted"
+
+  },
+  "ExixtEnName_402": {
+    "Status_Code": 402,
+    "MessageEn": "The Name En is Added Before",
+    "MessageAr": "تمت اضافه الاسم الانجليزي من قبل",
+    "Description": "When There is This English Name in Table and It is Unique"
+
+  },
+  "ExixtArName_403": {
+    "Status_Code": 403,
+    "MessageEn": "The Name Ar is Added Before",
+    "MessageAr": "تمت اضافه الاسم العربي من قبل",
+    "Description": "When There is This Arabic Name in Table and it is Unique"
+  },
+  "NoDeleted_404": {
+    "Status_Code": 404,
+    "MessageEn": "Can't Deleted",
+    "MessageAr": "لا يمكن الحذف",
+    "Description": "When There is This Column with relation with anthor Table"
+  },
+  "NoData_405": {
+    "Status_Code": 405,
+    "MessageEn": "No Data",
+    "MessageAr": "لا توجد بيانات",
+    "Description": "When There is No Data in Table"
+  },
+  "Exeption_500": {
+    "Status_Code": 500,
+    "MessageEn": "Internal Error",
+    "MessageAr": "يوجد خطا",
+    "Description": "When There is Error in Logic"
+  }
+}
